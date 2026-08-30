@@ -70,8 +70,7 @@ utilizable:
 **Resultado:** 18 variables utilizables sin pérdida de registros.
 
 ### Etapa 2 — Análisis estadístico
-[Completar: medidas de tendencia central y dispersión, análisis de la forma de las
-distribuciones, detección de valores atípicos y comparación entre variables.]
+En esta etapa se realizó el análisis estadístico descriptivo del conjunto de datos limpio. Se calcularon medidas de tendencia central y dispersión, se analizó la distribución de las variables y se identificaron posibles valores atípicos mediante el método IQR. También se estudiaron las correlaciones entre las características de los portátiles y su precio, encontrando una relación importante con variables como la memoria RAM, el almacenamiento SSD y el PPI. Finalmente, se realizaron comparaciones entre diferentes características y se plantearon cinco hipótesis como punto de partida para la siguiente etapa.
 
 ### Etapa 3 — Visualización, modelado y storytelling
 [Completar: visualizaciones finales, narrativa de datos, modelo predictivo, métricas de
