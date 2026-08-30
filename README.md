@@ -70,7 +70,11 @@ utilizable:
 **Resultado:** 18 variables utilizables sin pérdida de registros.
 
 ### Etapa 2 — Análisis estadístico
-En esta etapa se realizó el análisis estadístico descriptivo del conjunto de datos limpio. Se calcularon medidas de tendencia central y dispersión, se analizó la distribución de las variables y se identificaron posibles valores atípicos mediante el método IQR. También se estudiaron las correlaciones entre las características de los portátiles y su precio, encontrando una relación importante con variables como la memoria RAM, el almacenamiento SSD y el PPI. Finalmente, se realizaron comparaciones entre diferentes características y se plantearon cinco hipótesis como punto de partida para la siguiente etapa.
+Análisis estadístico del conjunto depurado. Se calcularon medidas de tendencia central y dispersión, incluyendo el coeficiente de variación para poder comparar variables en unidades distintas. El análisis de forma mostró que casi todas las distribuciones están sesgadas a la derecha, con el precio en 1.52 de asimetría.
+
+Los valores atípicos se detectaron con el método del rango intercuartílico. En RAM se marcaron 221 equipos (17%), pero al revisarlos resultaron ser portátiles Gaming y Workstation de gama alta, no errores, por lo que se conservaron.
+
+La comparación con el precio mostró que la RAM (0.74) y el SSD (0.67) son las variables más relacionadas, mientras que el tamaño de pantalla prácticamente no influye (0.07). De aquí salieron cinco hipótesis para la Etapa 3.
 
 ### Etapa 3 — Visualización, modelado y storytelling
 Visualización de los hallazgos, modelo predictivo y aplicación profesional. Se construyó una narrativa que parte de desmontar la intuición sobre el tamaño de pantalla y llega a la segmentación del mercado por gamas. Para el modelo se convirtieron las variables categóricas a formato numérico mediante one-hot encoding, pasando de 15 a 46 columnas. Se entrenó una regresión lineal múltiple con división 80/20 y semilla fija para reproducibilidad.
