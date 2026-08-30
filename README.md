@@ -10,9 +10,9 @@ Universidad EAN.
 
 | Integrante | Etapa a cargo | GitHub |
 |---|---|---|
-| [Nombre 1] | Etapa 1 — Preparación de datos | [@usuario1](https://github.com/usuario1) |
-| [Nombre 2] | Etapa 2 — Análisis estadístico | [@usuario2](https://github.com/usuario2) |
-| [Nombre 3] | Etapa 3 — Visualización y modelado | [@usuario3](https://github.com/usuario3) |
+| Brayan Felipe Alvarez Nieto | Etapa 1 — Preparación de datos | [Brayan-Alvzzz](https://github.com/usuario1) |
+| Jhonatan Stiben Rey Velasquez | Etapa 2 — Análisis estadístico | [jhonatanstibenrey123-blip](https://github.com/usuario2) |
+| Andres Sebastian Quintana Morales | Etapa 3 — Visualización y modelado | [sebastianquintanam](https://github.com/usuario3) |
 
 **Docente:** Camila Silva
 
