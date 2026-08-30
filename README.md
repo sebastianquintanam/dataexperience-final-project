@@ -73,8 +73,8 @@ utilizable:
 En esta etapa se realizó el análisis estadístico descriptivo del conjunto de datos limpio. Se calcularon medidas de tendencia central y dispersión, se analizó la distribución de las variables y se identificaron posibles valores atípicos mediante el método IQR. También se estudiaron las correlaciones entre las características de los portátiles y su precio, encontrando una relación importante con variables como la memoria RAM, el almacenamiento SSD y el PPI. Finalmente, se realizaron comparaciones entre diferentes características y se plantearon cinco hipótesis como punto de partida para la siguiente etapa.
 
 ### Etapa 3 — Visualización, modelado y storytelling
-[Completar: visualizaciones finales, narrativa de datos, modelo predictivo, métricas de
-evaluación y aplicación profesional.]
+Visualización de los hallazgos, modelo predictivo y aplicación profesional. Se construyó una narrativa que parte de desmontar la intuición sobre el tamaño de pantalla y llega a la segmentación del mercado por gamas. Para el modelo se convirtieron las variables categóricas a formato numérico mediante one-hot encoding, pasando de 15 a 46 columnas. Se entrenó una regresión lineal múltiple con división 80/20 y semilla fija para reproducibilidad.
+El modelo obtuvo un R² de 0.766 y un error promedio de 234 euros. El R² de entrenamiento (0.780) es muy similar al de prueba, lo que descarta sobreajuste. Se interpretaron los coeficientes y se plantearon aplicaciones en compras corporativas, junto con las limitaciones del enfoque.
 
 ---
 
@@ -117,6 +117,7 @@ cd dataexperience-final-project
 pip install pandas numpy matplotlib seaborn scikit-learn
 jupyter notebook
 ```
+Importante: los notebooks leen el CSV desde el directorio de trabajo, no desde data/. Al abrirlos en Colab hay que descargar el archivo correspondiente de la carpeta data/ de este repositorio y subirlo al panel de archivos de la sesión.
 
 ---
 
